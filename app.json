@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "나의 컬러는? - 퍼스널컬러",
+    "slug": "personalcolorapp",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gun.personalcolor",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2864408286392678~9927232071"
+      }
+    },
+    "packagerOpts": {
+      "port": 59365
+    },
+    "android": {
+      "package": "com.gun.personalcolor",
+      "versionCode": 5,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2864408286392678~9927232071"
+      }
+    }
+  }
+}
