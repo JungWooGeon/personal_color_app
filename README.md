@@ -1,8 +1,11 @@
 # personal_color_app
 
+<img src="https://user-images.githubusercontent.com/61993128/192737079-78eaef25-f31f-4082-8187-eeb9fa194832.png" width="300" height="300" />
+
+
 <br>
 
-#### 이 앱은 사진을 올리면 퍼스널 컬러를 알려줍니다.
+### 인공지능 퍼스널 컬러 테스트 앱
 인공지능으로 자신의 퍼스널 컬러를 알아보세요. 테스트를 위해 업로드된 사진은 따로 저장하지 않습니다.
 
 <br><br>
@@ -15,7 +18,9 @@
 <br><br>
 
 ### 화면
+<img src="https://user-images.githubusercontent.com/61993128/192735996-f7ebe1c1-2f46-4abc-aa2d-b5f93f55def9.jpeg" width="300" height="600" /><img src="https://user-images.githubusercontent.com/61993128/192736495-c87b7106-cd67-4a12-a08d-7f45f0d27866.jpeg" width="300" height="600" />
 
+<img src="https://user-images.githubusercontent.com/61993128/192736523-8b0303fb-8d1f-42db-bd4d-f36de12fc3ac.jpeg" width="300" height="600" /><img src="https://user-images.githubusercontent.com/61993128/192736541-3a0393df-4905-4566-b437-2e65bf9c3079.jpeg" width="300" height="600" />
 
 <br><br>
 
