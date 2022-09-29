@@ -7,7 +7,7 @@
       "android",
       "web"
     ],
-    "version": "1.0.5",
+    "version": "1.0.6",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -34,7 +34,7 @@
     },
     "android": {
       "package": "com.gun.personalcolor",
-      "versionCode": 5,
+      "versionCode": 6,
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE"

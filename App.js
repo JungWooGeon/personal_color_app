@@ -4,17 +4,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { WebView } from 'react-native-webview';
 import {Image} from 'react-native' ; 
-import * as Permissions from 'expo-permissions';
-import Constants from 'expo-constants';
-import {
-  AdMobBanner,
-  AdMobInterstitial,
-  PublisherBanner,
-  AdMobRewarded,
-  setTestDeviceIDAsync,
-} from 'expo-ads-admob';
-
-
 
 function HomeScreen({ navigation }) {
   return (
@@ -33,7 +22,6 @@ function HomeScreen({ navigation }) {
                   onPress={() => navigation.navigate('AI Test')}
             >
                   <Text style={styles.btn_move_text}>인공지능으로 퍼스널컬러를 테스트해보세요.
-                      기본적으로 봄웜톤, 여름쿨톤, 가을웜톤, 겨울쿨톤이 있습니다.
                 </Text>
             </TouchableWithoutFeedback>
             
@@ -66,7 +54,6 @@ function HomeScreen({ navigation }) {
             >
                 <Text style={styles.btn_move2_text}>
                     혼자서 간단히 해볼 수 있는 자가진단 기능입니다.
-                    두 가지 컬러 중 화사해보이는 쪽을 확인해보세요.
                 </Text>
             </TouchableWithoutFeedback>
             <TouchableWithoutFeedback
@@ -120,15 +107,9 @@ function SelfScreen({ navigation }) {
 const Stack = createStackNavigator();
 
 export default class App extends React.Component {
-    adFunction = async () => {
-		await AdMobInterstitial.setAdUnitID('ca-app-pub-2864408286392678/8325256234');
-		await AdMobInterstitial.requestAdAsync({ servePersonalizedAds: true});
-		await AdMobInterstitial.showAdAsync();
-	}
 	
 	componentDidMount() {
         BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
-		this.adFunction();
 	}
     componentWillUnmount() {
         this.exitApp = false;
@@ -187,7 +168,7 @@ const styles = StyleSheet.create({
     },
     btn_move_text: {
        fontSize: 15,
-       padding: 10,
+       paddingTop: 10,
        color: 'black',
        paddingLeft: 30,
        paddingRight: 30,
