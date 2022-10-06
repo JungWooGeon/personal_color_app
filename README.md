@@ -32,4 +32,9 @@
     * 비율 아래 쪽에 '자세히 보기' 클릭 시 결과에 따른 '메이크업 톤', '옷 색', '악세사리 색', '간단한 메이크업 팁' 등을 설명해줌
     * '다시 하기' 클릭 시 사진을 다시 업로드 할 수 있는 첫 화면으로 이동
 
+<br><br>
+
+### Google Play
+https://play.google.com/store/apps/details?id=com.gun.personalcolor&hl=ko
+
 <br>
