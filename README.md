@@ -34,18 +34,18 @@
 
 <br><br>
 
-### Google Play
+### 🔥 Google Play
 https://play.google.com/store/apps/details?id=com.gun.personalcolor&hl=ko
 
 <br><br>
 
-### 차트 기록
+### :chart_with_upwards_trend: 차트 기록
 
 <img src="https://user-images.githubusercontent.com/61993128/194742820-f38c8b5b-a8a6-40a3-a64a-96bf47845297.jpeg" width="300" height="600" /><img src="https://user-images.githubusercontent.com/61993128/194742869-71d705f6-3609-4f53-acf7-10c10340d0f0.jpeg" width="300" height="600" />
 
 <br><br>
 
-### Learned
+### :page_with_curl: Learned
  - html, css, js, bootstrap 등을 사용하여 나만의 웹페이지를 만들어 볼 수 있었음
  - netlify 를 이용하여 웹사이트 주소를 만들 수 있었음 (웹서비스)
  - teachable machine을 사용하여 인공지능에 학습을 시켜보고 서비스에 적용시켜볼 수 있었음
