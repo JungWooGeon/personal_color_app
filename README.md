@@ -2,7 +2,6 @@
 
 <img src="https://user-images.githubusercontent.com/61993128/192737079-78eaef25-f31f-4082-8187-eeb9fa194832.png" width="300" height="300" />
 
-
 <br>
 
 ### 💡 인공지능 퍼스널 컬러 테스트 앱
