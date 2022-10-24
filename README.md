@@ -38,7 +38,7 @@ https://play.google.com/store/apps/details?id=com.gun.personalcolor&hl=ko
 
 <br><br>
 
-### :chart_with_upwards_trend: 차트 기록
+### :chart_with_upwards_trend: 차트 기록 - 2020 ~ 2021
 
 <img src="https://user-images.githubusercontent.com/61993128/194742820-f38c8b5b-a8a6-40a3-a64a-96bf47845297.jpeg" width="300" height="600" /><img src="https://user-images.githubusercontent.com/61993128/194742869-71d705f6-3609-4f53-acf7-10c10340d0f0.jpeg" width="300" height="600" />
 
