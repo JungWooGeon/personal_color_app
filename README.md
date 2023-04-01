@@ -44,13 +44,3 @@ https://play.google.com/store/apps/details?id=com.gun.personalcolor&hl=ko
 <img src="https://user-images.githubusercontent.com/61993128/194742820-f38c8b5b-a8a6-40a3-a64a-96bf47845297.jpeg" width="300" height="600" /><img src="https://user-images.githubusercontent.com/61993128/194742869-71d705f6-3609-4f53-acf7-10c10340d0f0.jpeg" width="300" height="600" />
 
 <br><br>
-
-### :page_with_curl: Learned
- - html, css, js, bootstrap 등을 사용하여 나만의 웹페이지를 만들어 볼 수 있었음
- - netlify 를 이용하여 웹사이트 주소를 만들 수 있었음 (웹서비스)
- - teachable machine을 사용하여 인공지능에 학습을 시켜보고 서비스에 적용시켜볼 수 있었음
- - react-native를 사용하여 네비게이션 기능, 카드뷰 형식의 UI, WebView 등을 구현해 앱을 제작해볼 수 있었음
- - expo를 사용하여 react-native에서 앱을 빌드하고, play store에 배포해볼 수 있었음
- - app store 배포는 실패하였지만, reject되는 과정과 내용들을 경험해보고 알아볼 수 있었음
- - google adsense를 사용하여 앱을 홍보해 볼 수 있었음
- - google admob, kakao adfit을 사용하여 수익을 창출해 볼 수 있었음
