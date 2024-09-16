@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { WebView } from 'react-native-webview';
 import {Image} from 'react-native' ; 
 
+
 function HomeScreen({ navigation }) {
   return (
     <View style={{ flex: 1, margin: 10}}>
@@ -108,7 +109,7 @@ const Stack = createStackNavigator();
 
 export default class App extends React.Component {
 	
-	componentDidMount() {
+	async componentDidMount() {
         BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
 	}
     componentWillUnmount() {
@@ -135,6 +136,7 @@ export default class App extends React.Component {
         }
         return true;
     }
+
     render() {
     return (
     <NavigationContainer>

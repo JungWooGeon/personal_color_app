@@ -1,9 +1,8 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
@@ -12,32 +11,42 @@
     "@react-navigation/native": "^5.7.0",
     "@react-navigation/stack": "^5.7.0",
     "buffer": "^5.6.0",
-    "expo": "^46.0.0",
-    "expo-ads-admob": "^8.2.1",
-    "expo-gl": "~11.4.0",
-    "expo-status-bar": "~1.4.0",
-    "gl-react": "^4.0.1",
-    "gl-react-expo": "^4.0.1",
-    "gl-react-native": "^4.0.1",
+    "expo": "^51.0.32",
+    "expo-build-properties": "^0.12.5",
+    "expo-splash-screen": "~0.27.5",
+    "expo-status-bar": "~1.12.1",
+    "expo-updates": "~0.25.24",
     "navigation": "^5.3.1",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-native": "0.69.5",
-    "react-native-gesture-handler": "~2.5.0",
-    "react-native-gl-image-filters": "^0.1.3",
+    "node-fetch": "^2.7.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-gesture-handler": "~2.16.1",
     "react-native-image-picker": "^2.3.3",
     "react-native-photo-upload": "^1.3.0",
-    "react-native-reanimated": "~2.9.1",
-    "react-native-safe-area-context": "4.3.1",
-    "react-native-screens": "~3.15.0",
-    "react-native-web": "~0.18.7",
-    "react-native-webview": "11.23.0",
-    "react-navigation-stack": "^2.8.2",
-    "expo-updates": "~0.14.5"
+    "react-native-reanimated": "~3.10.1",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "3.31.1",
+    "react-native-web": "~0.19.10",
+    "react-native-webview": "13.8.6",
+    "react-navigation-stack": "^2.8.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.6",
-    "babel-preset-expo": "~9.2.0"
+    "@babel/core": "^7.24.0",
+    "babel-preset-expo": "~11.0.0"
   },
-  "private": true
+  "private": true,
+  "name": "personal_color_app",
+  "version": "1.0.0",
+  "resolutions": {
+    "@react-native-community/cli": "^7.0.0",
+    "@react-native-community/cli-config": "^7.0.0",
+    "@react-native-community/cli-debugger-ui": "^7.0.0",
+    "@react-native-community/cli-doctor": "^7.0.0",
+    "@react-native-community/cli-platform-android": "^7.0.0",
+    "@react-native-community/cli-platform-ios": "^7.0.0",
+    "@react-native-community/cli-server-api": "^7.0.0",
+    "@react-native-community/cli-tools": "^7.0.0",
+    "@react-native-community/cli-types": "^7.0.0"
+  }
 }

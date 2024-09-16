@@ -7,7 +7,7 @@
       "android",
       "web"
     ],
-    "version": "1.0.6",
+    "version": "1.0.7",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -34,13 +34,26 @@
     },
     "android": {
       "package": "com.gun.personalcolor",
-      "versionCode": 6,
-      "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE"
-      ],
+      "versionCode": 7,
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-2864408286392678~9927232071"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "16e71bb1-0ebf-43b6-9b23-53d3d5d5948c"
       }
     }
   }
