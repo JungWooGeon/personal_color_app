@@ -5,7 +5,10 @@
 <br>
 
 ### 💡 인공지능 퍼스널 컬러 테스트 앱
-인공지능으로 자신의 퍼스널 컬러를 알아보세요. 테스트를 위해 업로드된 사진은 따로 저장하지 않습니다.
+인공지능으로 자신의 퍼스널 컬러를 알아보세요.
+<br>
+
+최신 버전 : https://github.com/JungWooGeon/PersonalColorAndroid
 
 <br><br>
 
